@@ -2,14 +2,14 @@
 
 <h1>Hi, I'm Pascal Mutaka 👋</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Software+Engineer;Building+practical%2C+scalable+solutions;Full+Stack+Development;Rwanda+%F0%9F%87%B7%F0%9F%87%BC" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Software+Engineer;Building+practical%2C+scalable+solutions;Full+Stack+Development;Namibia+%F0%9F%87%B3%F0%9F%87%A6" alt="Typing SVG" />
 
 <p>
   <a href="https://komarev.com/ghpvc/?username=PascalMTK">
     <img src="https://komarev.com/ghpvc/?username=PascalMTK&label=Profile%20views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
   </a>
   <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Dev-0ea5e9?style=for-the-badge" alt="Focus" />
-  <img src="https://img.shields.io/badge/Location-Rwanda-22c55e?style=for-the-badge" alt="Location" />
+  <img src="https://img.shields.io/badge/Location-Namibia-22c55e?style=for-the-badge" alt="Location" />
 </p>
 
 </div>
