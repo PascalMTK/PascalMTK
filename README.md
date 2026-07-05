@@ -1,111 +1,68 @@
-<h1 align="center">Hi 👋, I'm PASCAL MUTAKA</h1>
-<h3 align="center">Software Engeneer</h3>
-
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=PascalMTK">
-    <img src="https://komarev.com/ghpvc/?username=PascalMTK&label=Profile%20views&color=00FFFF&style=flat-square" alt="PascalMTK's profile views" />
-  </a>
-</p>
-
-<img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" alt="Banner" width="100%" />
-
-## 📌 About Me
-- I'm passionate about building scalable and performant web and mobile applications that solve real-world problems. My journey in technology is driven by continuous learning and innovation.
-
-
-## 📊 GitHub Stats & Trophies
-<p align="center">
-  <a href="https://github.com/PascalMTK">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=PascalMTK&cache_seconds=7200&layout=compact&theme=onedark&border_radius=10" alt="PascalMTK's GitHub Stats" />
-  </a>
-  <img src="https://streak-stats.demolab.com/?user=PascalMTK&theme=onedark&hide_border=true&cache_seconds=86400" alt="PascalMTK's GitHub Streak" width="49%" />
-</p>
-<p align="center">
-  <img src="https://trophy.ryglcloud.net/?username=PascalMTK&theme=onedark&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="PASCAL MUTAKA's GitHub Trophies" />
-</p>
-
-
-## 🛠️ Languages & Tools
-
-<h3 align="center">Programming Languages</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" />
-
-</p>
-
-<h3 align="center">Frontend</h3>
-<p align="center">
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="40" />
-
-</p>
-
-<h3 align="center">Backend</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" />
-
-</p>
-
-<h3 align="center">Database</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="40" />
-
-</p>
-
-<h3 align="center">DevOps & Cloud</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" />
-
-</p>
-
-<h3 align="center">Tools</h3>
-<p align="center">
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" />
-
-</p>
-
-<p align="center">
-  <a href="https://github.com/PascalMTK">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=PascalMTK&langs_count=8&layout=compact&theme=onedark&border_radius=10" alt="Top Languages" />
-  </a>
-</p>
-
-![Top language](https://stats.pphat.top/languages?username=PascalMTK)
-<br/>
-
-## 🔗 Connect with Me
-<p align="center">
-  <a href="https://www.linkedin.com/in/pascal-mutaka-17a442379/">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/LinkedIN.svg" alt="LinkedIn" width="40" />
-  </a>&nbsp;&nbsp;
-  <a href="https://github.com/PascalMTK">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Twitter.svg" alt="Twitter" width="40" />
-  </a>&nbsp;&nbsp;
-  <a href="https://www.youtube.com/@SoftLaptop">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Youtube.svg" alt="YouTube" width="40" />
-  </a>&nbsp;&nbsp;
-  <a href="mailto:pascalmutaka02@gmail.com">
-    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" alt="Gmail" width="40" />
-  </a>
-</p>
-
-## 💬 Quote
-> "First, solve the problem. Then, write the code." — John Johnson
-
-<p align="center"><a href="https://www.buymeacoffee.com/chamidudili" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
-
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
+
+<h1>Hi, I'm Pascal Mutaka 👋</h1>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Software+Engineer;Building+practical%2C+scalable+solutions;Full+Stack+Development;Rwanda+%F0%9F%87%B7%F0%9F%87%BC" alt="Typing SVG" />
+
+<p>
+  <a href="https://komarev.com/ghpvc/?username=PascalMTK">
+    <img src="https://komarev.com/ghpvc/?username=PascalMTK&label=Profile%20views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
+  </a>
+  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Dev-0ea5e9?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Location-Rwanda-22c55e?style=for-the-badge" alt="Location" />
+</p>
+
 </div>
 
+## 👤 About Me
+
+I'm a software engineer passionate about creating reliable web and mobile applications that solve real problems with clean architecture, strong user experience, and modern technology.
+
+- 🔭 Building responsive and performant digital products
+- 💡 Turning ideas into practical, scalable solutions
+- 📚 Learning new tools and improving existing systems
+- 🤝 Collaborating on meaningful engineering work
+
+## 🛠️ Skills & Tools
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,java,php,nextjs,html,css,bootstrap,nodejs,mysql,mongodb,sqlite,docker,git,vscode,figma,postman&theme=dark" alt="Skills" />
+</div>
+
+## 📊 GitHub Insights
+
+<div align="center">
+  <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=PascalMTK&show_icons=true&theme=tokyonight&border_radius=12&hide_border=true" alt="GitHub stats" />
+  <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=PascalMTK&langs_count=8&layout=compact&theme=tokyonight&border_radius=12&hide_border=true" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=PascalMTK&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" alt="GitHub streak" width="65%" />
+</div>
+
+## 🔗 Connect With Me
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/pascal-mutaka-17a442379/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/PascalMTK">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="https://www.youtube.com/@SoftLaptop">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="mailto:pascalmutaka02@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+
+> "First, solve the problem. Then, write the code." — John Johnson
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Footer line" width="100%" />
+
+</div>
