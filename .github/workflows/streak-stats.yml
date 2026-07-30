@@ -1,0 +1,34 @@
+name: Refresh streak stats
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download streak stats SVG
+        run: |
+          curl -sf "https://streak-stats.demolab.com/?user=PascalMTK&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" -o /tmp/streak-stats.svg
+          if grep -q "Failed to retrieve contributions" /tmp/streak-stats.svg; then
+            echo "Upstream returned an error card; keeping the last known-good SVG."
+            exit 0
+          fi
+          cp /tmp/streak-stats.svg assets/streak-stats.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- assets/streak-stats.svg; then
+            git add assets/streak-stats.svg
+            git commit -m "Refresh streak stats"
+            git push
+          fi

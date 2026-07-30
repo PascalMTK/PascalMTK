@@ -42,7 +42,7 @@ I’m a software engineer passionate about creating reliable web and mobile appl
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=PascalMTK&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" alt="GitHub streak" width="70%" />
+  <img src="assets/streak-stats.svg" alt="GitHub streak" width="70%" />
 </div>
 
 ## 🔗 Connect With Me
