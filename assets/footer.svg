@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Thanks for stopping by. Let's build something useful.">
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+  </style>
+  <defs>
+    <clipPath id="card"><rect width="1200" height="170" rx="18"/></clipPath>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#2A1438"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="600" cy="170" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FB923C" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#FB923C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="d1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3D1A3F"/><stop offset="1" stop-color="#1A0F2A"/></linearGradient>
+    <linearGradient id="d2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14112A"/><stop offset="1" stop-color="#0A0D1C"/></linearGradient>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="170" fill="url(#sky)"/>
+    <rect width="1200" height="170" fill="url(#glow)"/>
+    <path d="M0 130 C160 108 300 104 440 118 C560 130 660 100 800 98 C940 96 1060 120 1200 112 V170 H0Z" fill="url(#d1)"/>
+    <path d="M0 152 C200 138 380 136 560 146 C720 154 900 136 1200 142 V170 H0Z" fill="url(#d2)"/>
+    <text class="sans" x="600" y="62" text-anchor="middle" font-size="26" font-weight="700" fill="#F8FAFC">Thanks for stopping by.</text>
+    <text class="mono" x="600" y="92" text-anchor="middle" font-size="14" fill="#94A3B8" letter-spacing="1">let's build something useful <tspan fill="#FB923C">→</tspan></text>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="169" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="What I do: 01 Product engineering, 02 Full stack systems, 03 UX-minded delivery.">
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+    .c { opacity: 0; animation: up .6s ease-out forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E1328"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="a1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
+    <linearGradient id="a2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#C084FC" stop-opacity="0"/></linearGradient>
+    <linearGradient id="a3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#FB923C" stop-opacity="0"/></linearGradient>
+  </defs>
+
+  <!-- card 1 -->
+  <g class="c" style="animation-delay:.1s">
+    <rect x=".5" y=".5" width="383" height="229" rx="16" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="28" y="0" width="140" height="3" fill="url(#a1)"/>
+    <text class="mono" x="28" y="48" font-size="13" fill="#22D3EE" letter-spacing="2">01 / BUILD</text>
+    <!-- icon: layers -->
+    <g transform="translate(320 26)" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linejoin="round" opacity=".9">
+      <path d="M18 4 32 11 18 18 4 11Z"/><path d="M4 18l14 7 14-7"/><path d="M4 25l14 7 14-7"/>
+    </g>
+    <text class="sans" x="28" y="104" font-size="24" font-weight="700" fill="#F8FAFC">Product engineering</text>
+    <text class="sans" x="28" y="140" font-size="15" fill="#94A3B8">Responsive, high-performance web</text>
+    <text class="sans" x="28" y="162" font-size="15" fill="#94A3B8">and mobile apps that solve real</text>
+    <text class="sans" x="28" y="184" font-size="15" fill="#94A3B8">problems for real users.</text>
+  </g>
+
+  <!-- card 2 -->
+  <g class="c" style="animation-delay:.3s">
+    <rect x="408.5" y=".5" width="383" height="229" rx="16" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="436" y="0" width="140" height="3" fill="url(#a2)"/>
+    <text class="mono" x="436" y="48" font-size="13" fill="#C084FC" letter-spacing="2">02 / ARCHITECT</text>
+    <!-- icon: nodes -->
+    <g transform="translate(728 26)" fill="none" stroke="#C084FC" stroke-width="1.8" opacity=".9">
+      <circle cx="18" cy="6" r="4"/><circle cx="6" cy="28" r="4"/><circle cx="30" cy="28" r="4"/>
+      <path d="M16 10 8 24M20 10l8 14M10 28h16"/>
+    </g>
+    <text class="sans" x="436" y="104" font-size="24" font-weight="700" fill="#F8FAFC">Full stack systems</text>
+    <text class="sans" x="436" y="140" font-size="15" fill="#94A3B8">APIs, databases and front-ends</text>
+    <text class="sans" x="436" y="162" font-size="15" fill="#94A3B8">designed with clean architecture</text>
+    <text class="sans" x="436" y="184" font-size="15" fill="#94A3B8">so they scale and stay maintainable.</text>
+  </g>
+
+  <!-- card 3 -->
+  <g class="c" style="animation-delay:.5s">
+    <rect x="816.5" y=".5" width="383" height="229" rx="16" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="844" y="0" width="140" height="3" fill="url(#a3)"/>
+    <text class="mono" x="844" y="48" font-size="13" fill="#FB923C" letter-spacing="2">03 / CRAFT</text>
+    <!-- icon: cursor/spark -->
+    <g transform="translate(1136 26)" fill="none" stroke="#FB923C" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" opacity=".9">
+      <path d="M6 4l10 26 4-10 10-4Z"/><path d="M28 2v6M25 5h6"/>
+    </g>
+    <text class="sans" x="844" y="104" font-size="24" font-weight="700" fill="#F8FAFC">UX-minded delivery</text>
+    <text class="sans" x="844" y="140" font-size="15" fill="#94A3B8">Smooth interfaces, maintainable</text>
+    <text class="sans" x="844" y="162" font-size="15" fill="#94A3B8">code, and a habit of learning the</text>
+    <text class="sans" x="844" y="184" font-size="15" fill="#94A3B8">tools that make products better.</text>
+  </g>
+</svg>

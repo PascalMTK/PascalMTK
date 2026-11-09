@@ -16,7 +16,7 @@ jobs:
 
       - name: Download streak stats SVG
         run: |
-          curl -sf "https://streak-stats.demolab.com/?user=PascalMTK&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=86400" -o /tmp/streak-stats.svg
+          curl -sf "https://streak-stats.demolab.com/?user=PascalMTK&hide_border=true&border_radius=16&background=0B1020&stroke=1E293B&ring=FB923C&fire=FB923C&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B&cache_seconds=86400" -o /tmp/streak-stats.svg
           if grep -q "Failed to retrieve contributions" /tmp/streak-stats.svg; then
             echo "Upstream returned an error card; keeping the last known-good SVG."
             exit 0
