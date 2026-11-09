@@ -2,27 +2,43 @@
   <style>
     .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+    .glow { animation: breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { opacity: .7; } 50% { opacity: 1; } }
+    .arrow { animation: nudge 1.6s ease-in-out infinite; }
+    @keyframes nudge { 0%,100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
+    .tw { animation: tw 3s ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: 1; } }
+    .sand { opacity: 0; animation: drift linear infinite; }
+    @keyframes drift { 0% { transform: translate(0,0); opacity: 0; } 20% { opacity: .7; } 100% { transform: translate(300px,-14px); opacity: 0; } }
+    .dune { animation: sway 12s ease-in-out infinite alternate; }
+    @keyframes sway { from { transform: translateX(-14px); } to { transform: translateX(14px); } }
   </style>
   <defs>
     <clipPath id="card"><rect width="1200" height="170" rx="18"/></clipPath>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0B1020"/>
-      <stop offset="1" stop-color="#2A1438"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="600" cy="170" r="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FB923C" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#FB923C" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#2A1438"/></linearGradient>
+    <radialGradient id="glowG" cx="600" cy="170" r="420" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FB923C" stop-opacity=".38"/><stop offset="1" stop-color="#FB923C" stop-opacity="0"/></radialGradient>
     <linearGradient id="d1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3D1A3F"/><stop offset="1" stop-color="#1A0F2A"/></linearGradient>
     <linearGradient id="d2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14112A"/><stop offset="1" stop-color="#0A0D1C"/></linearGradient>
   </defs>
   <g clip-path="url(#card)">
     <rect width="1200" height="170" fill="url(#sky)"/>
-    <rect width="1200" height="170" fill="url(#glow)"/>
-    <path d="M0 130 C160 108 300 104 440 118 C560 130 660 100 800 98 C940 96 1060 120 1200 112 V170 H0Z" fill="url(#d1)"/>
+    <rect class="glow" width="1200" height="170" fill="url(#glowG)"/>
+    <g fill="#E2E8F0">
+      <circle class="tw" cx="140" cy="34" r="1.2"/><circle class="tw" cx="260" cy="62" r=".9" style="animation-delay:1s"/>
+      <circle class="tw" cx="980" cy="30" r="1.3" style="animation-delay:.5s"/><circle class="tw" cx="1080" cy="70" r=".9" style="animation-delay:1.8s"/>
+      <circle class="tw" cx="880" cy="56" r=".8" style="animation-delay:2.4s"/><circle class="tw" cx="340" cy="26" r=".8" style="animation-delay:1.4s"/>
+    </g>
+    <path class="dune" d="M-40 130 C160 108 300 104 440 118 C560 130 660 100 800 98 C940 96 1060 120 1240 112 V170 H-40Z" fill="url(#d1)"/>
+    <g fill="#FDBA74">
+      <circle class="sand" cx="300" cy="128" r="1.1" style="animation-duration:6s"/>
+      <circle class="sand" cx="560" cy="134" r="1" style="animation-duration:7s;animation-delay:2s"/>
+      <circle class="sand" cx="760" cy="126" r="1.3" style="animation-duration:5.5s;animation-delay:3.5s"/>
+      <circle class="sand" cx="150" cy="140" r=".9" style="animation-duration:8s;animation-delay:1s"/>
+    </g>
     <path d="M0 152 C200 138 380 136 560 146 C720 154 900 136 1200 142 V170 H0Z" fill="url(#d2)"/>
     <text class="sans" x="600" y="62" text-anchor="middle" font-size="26" font-weight="700" fill="#F8FAFC">Thanks for stopping by.</text>
-    <text class="mono" x="600" y="92" text-anchor="middle" font-size="14" fill="#94A3B8" letter-spacing="1">let's build something useful <tspan fill="#FB923C">→</tspan></text>
+    <text class="mono" x="590" y="92" text-anchor="middle" font-size="14" fill="#94A3B8" letter-spacing="1">let's build something useful</text>
+    <text class="mono arrow" x="728" y="92" font-size="14" fill="#FB923C">→</text>
   </g>
   <rect x=".5" y=".5" width="1199" height="169" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
 </svg>

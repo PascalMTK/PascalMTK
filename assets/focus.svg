@@ -2,28 +2,36 @@
   <style>
     .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
-    .c { opacity: 0; animation: up .6s ease-out forwards; }
-    @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .c { opacity: 0; animation: up .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+    .trace { fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 160 1033; animation: trace 7s linear infinite; }
+    @keyframes trace { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -1193; } }
+    .float { animation: float 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    .bar { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
   </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0E1328"/>
-      <stop offset="1" stop-color="#0B1020"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E1328"/><stop offset="1" stop-color="#0B1020"/></linearGradient>
     <linearGradient id="a1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
     <linearGradient id="a2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#C084FC" stop-opacity="0"/></linearGradient>
     <linearGradient id="a3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#FB923C" stop-opacity="0"/></linearGradient>
+    <radialGradient id="h1" cx=".9" cy="0" r=".9"><stop offset="0" stop-color="#22D3EE" stop-opacity=".12"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="h2" cx=".9" cy="0" r=".9"><stop offset="0" stop-color="#C084FC" stop-opacity=".12"/><stop offset="1" stop-color="#C084FC" stop-opacity="0"/></radialGradient>
+    <radialGradient id="h3" cx=".9" cy="0" r=".9"><stop offset="0" stop-color="#FB923C" stop-opacity=".12"/><stop offset="1" stop-color="#FB923C" stop-opacity="0"/></radialGradient>
   </defs>
 
   <!-- card 1 -->
   <g class="c" style="animation-delay:.1s">
-    <rect x=".5" y=".5" width="383" height="229" rx="16" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
-    <rect x="28" y="0" width="140" height="3" fill="url(#a1)"/>
+    <rect x="1" y="1" width="382" height="228" rx="16" fill="url(#bg)"/>
+    <rect x="1" y="1" width="382" height="228" rx="16" fill="url(#h1)"/>
+    <rect x="1" y="1" width="382" height="228" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect class="trace" x="1" y="1" width="382" height="228" rx="16" stroke="#22D3EE" style="animation-delay:-0s"/>
+    <rect class="bar" x="28" y="62" width="120" height="2" fill="url(#a1)" style="animation-delay:.6s"/>
     <text class="mono" x="28" y="48" font-size="13" fill="#22D3EE" letter-spacing="2">01 / BUILD</text>
-    <!-- icon: layers -->
-    <g transform="translate(320 26)" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linejoin="round" opacity=".9">
+    <g class="float"><g transform="translate(320 26)" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linejoin="round">
       <path d="M18 4 32 11 18 18 4 11Z"/><path d="M4 18l14 7 14-7"/><path d="M4 25l14 7 14-7"/>
-    </g>
+    </g></g>
     <text class="sans" x="28" y="104" font-size="24" font-weight="700" fill="#F8FAFC">Product engineering</text>
     <text class="sans" x="28" y="140" font-size="15" fill="#94A3B8">Responsive, high-performance web</text>
     <text class="sans" x="28" y="162" font-size="15" fill="#94A3B8">and mobile apps that solve real</text>
@@ -32,14 +40,17 @@
 
   <!-- card 2 -->
   <g class="c" style="animation-delay:.3s">
-    <rect x="408.5" y=".5" width="383" height="229" rx="16" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
-    <rect x="436" y="0" width="140" height="3" fill="url(#a2)"/>
+    <rect x="409" y="1" width="382" height="228" rx="16" fill="url(#bg)"/>
+    <rect x="409" y="1" width="382" height="228" rx="16" fill="url(#h2)"/>
+    <rect x="409" y="1" width="382" height="228" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect class="trace" x="409" y="1" width="382" height="228" rx="16" stroke="#C084FC" style="animation-delay:-2.33s"/>
+    <rect class="bar" x="436" y="62" width="120" height="2" fill="url(#a2)" style="animation-delay:.8s"/>
     <text class="mono" x="436" y="48" font-size="13" fill="#C084FC" letter-spacing="2">02 / ARCHITECT</text>
-    <!-- icon: nodes -->
-    <g transform="translate(728 26)" fill="none" stroke="#C084FC" stroke-width="1.8" opacity=".9">
+    <g class="float" style="animation-delay:-1.3s"><g transform="translate(728 26)" fill="none" stroke="#C084FC" stroke-width="1.8">
       <circle cx="18" cy="6" r="4"/><circle cx="6" cy="28" r="4"/><circle cx="30" cy="28" r="4"/>
       <path d="M16 10 8 24M20 10l8 14M10 28h16"/>
-    </g>
+      <circle r="2" fill="#C084FC" stroke="none"><animateMotion dur="2.4s" repeatCount="indefinite" path="M18 6 L6 28 L30 28 Z"/></circle>
+    </g></g>
     <text class="sans" x="436" y="104" font-size="24" font-weight="700" fill="#F8FAFC">Full stack systems</text>
     <text class="sans" x="436" y="140" font-size="15" fill="#94A3B8">APIs, databases and front-ends</text>
     <text class="sans" x="436" y="162" font-size="15" fill="#94A3B8">designed with clean architecture</text>
@@ -48,13 +59,16 @@
 
   <!-- card 3 -->
   <g class="c" style="animation-delay:.5s">
-    <rect x="816.5" y=".5" width="383" height="229" rx="16" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
-    <rect x="844" y="0" width="140" height="3" fill="url(#a3)"/>
+    <rect x="817" y="1" width="382" height="228" rx="16" fill="url(#bg)"/>
+    <rect x="817" y="1" width="382" height="228" rx="16" fill="url(#h3)"/>
+    <rect x="817" y="1" width="382" height="228" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect class="trace" x="817" y="1" width="382" height="228" rx="16" stroke="#FB923C" style="animation-delay:-4.66s"/>
+    <rect class="bar" x="844" y="62" width="120" height="2" fill="url(#a3)" style="animation-delay:1s"/>
     <text class="mono" x="844" y="48" font-size="13" fill="#FB923C" letter-spacing="2">03 / CRAFT</text>
-    <!-- icon: cursor/spark -->
-    <g transform="translate(1136 26)" fill="none" stroke="#FB923C" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" opacity=".9">
-      <path d="M6 4l10 26 4-10 10-4Z"/><path d="M28 2v6M25 5h6"/>
-    </g>
+    <g class="float" style="animation-delay:-2.6s"><g transform="translate(1136 26)" fill="none" stroke="#FB923C" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M6 4l10 26 4-10 10-4Z"/>
+      <path d="M28 2v6M25 5h6"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></path>
+    </g></g>
     <text class="sans" x="844" y="104" font-size="24" font-weight="700" fill="#F8FAFC">UX-minded delivery</text>
     <text class="sans" x="844" y="140" font-size="15" fill="#94A3B8">Smooth interfaces, maintainable</text>
     <text class="sans" x="844" y="162" font-size="15" fill="#94A3B8">code, and a habit of learning the</text>

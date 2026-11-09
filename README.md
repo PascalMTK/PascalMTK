@@ -67,6 +67,12 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=PascalMTK&bg_color=0B1020&color=94A3B8&line=22D3EE&point=FB923C&area=true&area_color=22D3EE&title_color=E2E8F0&hide_border=true&radius=16" alt="Contribution graph" width="100%" />
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PascalMTK/PascalMTK/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PascalMTK/PascalMTK/output/snake-light.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/PascalMTK/PascalMTK/output/snake-dark.svg" width="100%" />
+</picture>
+
 <br />
 
 <img src="assets/footer.svg" alt="Thanks for stopping by — let's build something useful." width="100%" />
