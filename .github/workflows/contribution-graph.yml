@@ -1,0 +1,39 @@
+name: Refresh contribution graph
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/contribution-graph.mjs", ".github/workflows/contribution-graph.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/contribution-graph.mjs "${{ github.repository_owner }}" assets/contribution-graph.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- assets/contribution-graph.svg; then
+            git add assets/contribution-graph.svg
+            git commit -m "Refresh contribution graph"
+            git pull --rebase
+            git push
+          fi

@@ -64,7 +64,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PascalMTK&bg_color=0B1020&color=94A3B8&line=22D3EE&point=FB923C&area=true&area_color=22D3EE&title_color=E2E8F0&hide_border=true&radius=16" alt="Contribution graph" width="100%" />
+  <img src="assets/contribution-graph.svg" alt="Contribution activity over the last 12 months" width="100%" />
 </p>
 
 <picture>
