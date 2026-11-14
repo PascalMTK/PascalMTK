@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="PascalMTK: 270 commits in the last year, 7 pull requests, 9 repositories, 0 stars, 8 followers. Top languages: HTML 35%, Python 25%, Java 19%, CSS 15%, JavaScript 5%, Other 1%.">
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+    .in { opacity: 0; animation: in .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#0E1328"/></linearGradient>
+    <clipPath id="frame"><rect width="1200" height="290" rx="18"/></clipPath>
+    <clipPath id="bar"><rect x="640" y="92" width="520" height="12" rx="6"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)"><rect width="1200" height="290" fill="url(#bg)"/></g>
+  <rect x=".5" y=".5" width="1199" height="289" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <line x1="600" y1="40" x2="600" y2="250" stroke="#FFFFFF" stroke-opacity=".08"/>
+
+  <text x="40" y="52" class="mono" font-size="12" fill="#22D3EE" letter-spacing="2">GITHUB STATS</text>
+  <text x="640" y="52" class="mono" font-size="12" fill="#22D3EE" letter-spacing="2">TOP LANGUAGES</text>
+  <text x="1160" y="52" class="mono" font-size="12" fill="#475569" letter-spacing="2" text-anchor="end">BY CODE SIZE</text>
+  
+  <g class="in" style="animation-delay:0.1s">
+    <text x="40" y="120" class="sans" font-size="34" font-weight="800" fill="#F8FAFC">270</text>
+    <text x="40" y="144" class="mono" font-size="11" fill="#64748B" letter-spacing="2">COMMITS · 12 MO</text>
+  </g>
+  <g class="in" style="animation-delay:0.2s">
+    <text x="210" y="120" class="sans" font-size="34" font-weight="800" fill="#22D3EE">7</text>
+    <text x="210" y="144" class="mono" font-size="11" fill="#64748B" letter-spacing="2">PULL REQUESTS</text>
+  </g>
+  <g class="in" style="animation-delay:0.3s">
+    <text x="380" y="120" class="sans" font-size="34" font-weight="800" fill="#F8FAFC">9</text>
+    <text x="380" y="144" class="mono" font-size="11" fill="#64748B" letter-spacing="2">REPOSITORIES</text>
+  </g>
+  <g class="in" style="animation-delay:0.4s">
+    <text x="40" y="216" class="sans" font-size="34" font-weight="800" fill="#F8FAFC">1</text>
+    <text x="40" y="240" class="mono" font-size="11" fill="#64748B" letter-spacing="2">ISSUES</text>
+  </g>
+  <g class="in" style="animation-delay:0.5s">
+    <text x="210" y="216" class="sans" font-size="34" font-weight="800" fill="#FB923C">0</text>
+    <text x="210" y="240" class="mono" font-size="11" fill="#64748B" letter-spacing="2">STARS EARNED</text>
+  </g>
+  <g class="in" style="animation-delay:0.6s">
+    <text x="380" y="216" class="sans" font-size="34" font-weight="800" fill="#C084FC">8</text>
+    <text x="380" y="240" class="mono" font-size="11" fill="#64748B" letter-spacing="2">FOLLOWERS</text>
+  </g>
+
+  <rect x="640" y="92" width="520" height="12" rx="6" fill="#FFFFFF" fill-opacity=".05"/>
+  <g clip-path="url(#bar)">
+    <rect x="640.0" y="92" width="180.6" height="12" fill="#e34c26" class="grow" style="animation-delay:0.40s"/>
+    <rect x="822.6" y="92" width="128.9" height="12" fill="#3572A5" class="grow" style="animation-delay:0.48s"/>
+    <rect x="953.5" y="92" width="97.8" height="12" fill="#b07219" class="grow" style="animation-delay:0.56s"/>
+    <rect x="1053.3" y="92" width="75.0" height="12" fill="#663399" class="grow" style="animation-delay:0.64s"/>
+    <rect x="1130.3" y="92" width="24.9" height="12" fill="#f1e05a" class="grow" style="animation-delay:0.72s"/>
+    <rect x="1157.2" y="92" width="0.8" height="12" fill="#475569" class="grow" style="animation-delay:0.80s"/>
+  </g>
+  
+  <g class="in" style="animation-delay:0.6s">
+    <circle cx="646" cy="145" r="6" fill="#e34c26"/>
+    <text x="662" y="150" class="sans" font-size="16" font-weight="600" fill="#E2E8F0">HTML</text>
+    <text x="880" y="150" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">35.1%</text>
+  </g>
+  <g class="in" style="animation-delay:0.7s">
+    <circle cx="916" cy="145" r="6" fill="#3572A5"/>
+    <text x="932" y="150" class="sans" font-size="16" font-weight="600" fill="#E2E8F0">Python</text>
+    <text x="1150" y="150" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">25.2%</text>
+  </g>
+  <g class="in" style="animation-delay:0.8s">
+    <circle cx="646" cy="195" r="6" fill="#b07219"/>
+    <text x="662" y="200" class="sans" font-size="16" font-weight="600" fill="#E2E8F0">Java</text>
+    <text x="880" y="200" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">19.2%</text>
+  </g>
+  <g class="in" style="animation-delay:0.9s">
+    <circle cx="916" cy="195" r="6" fill="#663399"/>
+    <text x="932" y="200" class="sans" font-size="16" font-weight="600" fill="#E2E8F0">CSS</text>
+    <text x="1150" y="200" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">14.8%</text>
+  </g>
+  <g class="in" style="animation-delay:1.0s">
+    <circle cx="646" cy="245" r="6" fill="#f1e05a"/>
+    <text x="662" y="250" class="sans" font-size="16" font-weight="600" fill="#E2E8F0">JavaScript</text>
+    <text x="880" y="250" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">5.2%</text>
+  </g>
+  <g class="in" style="animation-delay:1.1s">
+    <circle cx="916" cy="245" r="6" fill="#475569"/>
+    <text x="932" y="250" class="sans" font-size="16" font-weight="600" fill="#E2E8F0">Other</text>
+    <text x="1150" y="250" class="mono" font-size="13" fill="#94A3B8" text-anchor="end">0.5%</text>
+  </g>
+</svg>

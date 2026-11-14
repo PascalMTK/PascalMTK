@@ -55,8 +55,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=PascalMTK&show_icons=true&include_all_commits=true&hide_border=true&border_radius=16&bg_color=0B1020&title_color=22D3EE&text_color=CBD5E1&icon_color=FB923C&ring_color=22D3EE" alt="GitHub stats" height="170" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=PascalMTK&langs_count=8&layout=compact&hide_border=true&border_radius=16&bg_color=0B1020&title_color=22D3EE&text_color=CBD5E1" alt="Top languages" height="170" />
+  <img src="assets/github-stats.svg" alt="GitHub stats and top languages" width="100%" />
 </p>
 
 <p align="center">

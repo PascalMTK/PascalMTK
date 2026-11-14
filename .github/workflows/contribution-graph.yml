@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/contribution-graph.mjs", ".github/workflows/contribution-graph.yml"]
+    paths: ["scripts/contribution-graph.mjs", "scripts/github-stats.mjs", ".github/workflows/contribution-graph.yml"]
 
 permissions:
   contents: write
@@ -27,13 +27,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/contribution-graph.mjs "${{ github.repository_owner }}" assets/contribution-graph.svg
 
+      - name: Generate stats card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/github-stats.mjs "${{ github.repository_owner }}" assets/github-stats.svg
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- assets/contribution-graph.svg; then
-            git add assets/contribution-graph.svg
-            git commit -m "Refresh contribution graph"
+          if ! git diff --quiet -- assets/contribution-graph.svg assets/github-stats.svg; then
+            git add assets/contribution-graph.svg assets/github-stats.svg
+            git commit -m "Refresh contribution graph and stats"
             git pull --rebase
             git push
           fi
