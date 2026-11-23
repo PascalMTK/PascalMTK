@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Recently active projects by PascalMTK: OkapiAI (Python, updated today); BlueSky-Website (Python, updated 7 days ago); MyPortfolio (JavaScript, updated 8 days ago); JobApplication (HTML, updated 15 days ago).">
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+    .in { opacity: 0; animation: in .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#0E1328"/></linearGradient>
+    <clipPath id="frame"><rect width="1200" height="440" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)"><rect width="1200" height="440" fill="url(#bg)"/></g>
+  <rect x=".5" y=".5" width="1199" height="439" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+
+  <text x="40" y="52" class="mono" font-size="12" fill="#22D3EE" letter-spacing="2">RECENTLY ACTIVE PROJECTS</text>
+  <text x="1160" y="52" class="mono" font-size="12" fill="#475569" letter-spacing="2" text-anchor="end">BY LAST PUSH</text>
+  
+  <g class="in" style="animation-delay:0.10s">
+    <rect x="40" y="80" width="550" height="150" rx="14" fill="#FFFFFF" fill-opacity=".03" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="64" y="120" class="sans" font-size="20" font-weight="700" fill="#F8FAFC">OkapiAI</text>
+    <text x="566" y="120" class="mono" font-size="12" fill="#64748B" text-anchor="end">today</text>
+    <text x="64" y="150" class="sans" font-size="14" fill="#94A3B8">Public repository · started Nov 2026</text>
+    <circle cx="70" cy="204" r="6" fill="#3572A5"/>
+    <text x="84" y="209" class="mono" font-size="13" fill="#E2E8F0">Python</text>
+    <text x="566" y="209" class="mono" font-size="13" fill="#FB923C" text-anchor="end">★ 0</text>
+  </g>
+  <g class="in" style="animation-delay:0.22s">
+    <rect x="610" y="80" width="550" height="150" rx="14" fill="#FFFFFF" fill-opacity=".03" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="634" y="120" class="sans" font-size="20" font-weight="700" fill="#F8FAFC">BlueSky-Website</text>
+    <text x="1136" y="120" class="mono" font-size="12" fill="#64748B" text-anchor="end">7 days ago</text>
+    <text x="634" y="150" class="sans" font-size="14" fill="#94A3B8">Public repository · started Jul 2026</text>
+    <circle cx="640" cy="204" r="6" fill="#3572A5"/>
+    <text x="654" y="209" class="mono" font-size="13" fill="#E2E8F0">Python</text>
+    <text x="1136" y="209" class="mono" font-size="13" fill="#FB923C" text-anchor="end">★ 0</text>
+  </g>
+  <g class="in" style="animation-delay:0.34s">
+    <rect x="40" y="250" width="550" height="150" rx="14" fill="#FFFFFF" fill-opacity=".03" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="64" y="290" class="sans" font-size="20" font-weight="700" fill="#F8FAFC">MyPortfolio</text>
+    <text x="566" y="290" class="mono" font-size="12" fill="#64748B" text-anchor="end">8 days ago</text>
+    <text x="64" y="320" class="sans" font-size="14" fill="#94A3B8">Public repository · started Nov 2026</text>
+    <circle cx="70" cy="374" r="6" fill="#f1e05a"/>
+    <text x="84" y="379" class="mono" font-size="13" fill="#E2E8F0">JavaScript</text>
+    <text x="566" y="379" class="mono" font-size="13" fill="#FB923C" text-anchor="end">★ 0</text>
+  </g>
+  <g class="in" style="animation-delay:0.46s">
+    <rect x="610" y="250" width="550" height="150" rx="14" fill="#FFFFFF" fill-opacity=".03" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="634" y="290" class="sans" font-size="20" font-weight="700" fill="#F8FAFC">JobApplication</text>
+    <text x="1136" y="290" class="mono" font-size="12" fill="#64748B" text-anchor="end">15 days ago</text>
+    <text x="634" y="320" class="sans" font-size="14" fill="#94A3B8">Public repository · started Nov 2026</text>
+    <circle cx="640" cy="374" r="6" fill="#e34c26"/>
+    <text x="654" y="379" class="mono" font-size="13" fill="#E2E8F0">HTML</text>
+    <text x="1136" y="379" class="mono" font-size="13" fill="#FB923C" text-anchor="end">★ 0</text>
+  </g>
+</svg>

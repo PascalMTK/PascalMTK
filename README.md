@@ -66,11 +66,11 @@
   <img src="assets/contribution-graph.svg" alt="Contribution activity over the last 12 months" width="100%" />
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PascalMTK/PascalMTK/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PascalMTK/PascalMTK/output/snake-light.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/PascalMTK/PascalMTK/output/snake-dark.svg" width="100%" />
-</picture>
+<p align="center">
+  <a href="https://github.com/PascalMTK?tab=repositories&sort=updated">
+    <img src="assets/recent-projects.svg" alt="My most recently active projects" width="100%" />
+  </a>
+</p>
 
 <br />
 
